@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/goit-advancedjs-hw-04/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Тема 6. HTTP-запити і взаємодія з бекендом. Домашня робота</title>
+    <script type="module" crossorigin src="/goit-advancedjs-hw-04/index.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-advancedjs-hw-04/assets/vendor-DFCQGEf1.js">
+    <link rel="stylesheet" crossorigin href="/goit-advancedjs-hw-04/assets/vendor-DumFYO8Z.css">
+    <link rel="stylesheet" crossorigin href="/goit-advancedjs-hw-04/assets/index-FiPg8v2X.css">
+  </head>
+  <body>
+    <main>
+      <!-- Search form -->
+      <form class="form" id="search-form">
+        <input
+          type="text"
+          name="searchQuery"
+          autocomplete="off"
+          placeholder="Search images..."
+          class="search-input"
+        />
+        <button type="submit" class="search-btn">Search</button>
+      </form>
+
+      <!-- Gallery -->
+      <ul class="gallery" id="gallery"></ul>
+
+      <!-- Load more button -->
+      <button type="button" class="load-more-btn" id="load-more-btn" style="display: none;">
+        Load more
+      </button>
+
+      <!-- Loader -->
+      <span class="loader" id="loader" style="display: none;">
+        <div class="loader-spinner"></div>
+        <p>Loading images, please wait...</p>
+      </span>
+    </main>
+
+  </body>
+</html>
